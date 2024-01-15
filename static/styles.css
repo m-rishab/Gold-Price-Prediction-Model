@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Style for individual dataset items within the card */
+.dataset-item {
+    margin-bottom: 10px;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #FFD700; /* Gold color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff; /* White color on hover */
+}
+
+/* Hover effect for dataset items */
+.dataset-item:hover {
+    background-color: #F0F0F0; /* Light gray background on hover */
+    transition: background-color 0.3s;
+}

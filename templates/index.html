@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Gold Price Prediction Models</title>
+</head>
+<body>
+
+    <nav>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#model-results" class="nav-link">Models</a>
+        <!-- Add more navigation options as needed -->
+    </nav>
+    
+    <!-- Scrollable card to display the dataset -->
+    <!-- Scrollable card to display the dataset -->
+    <div class="card">
+        <h3>Gold Price Dataset</h3>
+        <div>
+            {% for index, row in gold_data.iterrows() %}
+                <div class="dataset-item">
+                    <p><strong>Date:</strong> {{ row['Date'] }}</p>
+                    <p><strong>GLD Price:</strong> {{ row['GLD'] }}</p>
+                    <!-- Add more data fields as needed -->
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    <!-- About Section (Placeholder content) -->
+    <div class="card" id="about">
+        <!-- Content for the "About" section -->
+        <h3>About</h3>
+        <p>This is a placeholder for the About section. Add your content here.</p>
+    </div>
+    
+        <section id="model-results">
+            <h2>Model Predictions</h2>
+            {% for model_name, result in predictions.items() %}
+                <div class="model-card">
+                    <h3>{{ model_name }}</h3>
+                    <p>Model Performance: {{ result['score'] }}</p>
+                    <p>Predicted Values: {{ result['prediction'] }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+
+</body>
+</html>

@@ -10,7 +10,7 @@ Random Forest Regression is a supervised learning algorithm that uses an ensembl
 
 ## Flowchart
 
-![Flowchart](path/to/your/flowchart.png)
+<img width="400" height="auto" alt="Gold" src="https://github.com/m-rishab/Gold-Price-Prediction-Model/assets/113618652/e6bee21c-641f-415a-a431-721dbe881229">
 
 ## Steps
 

@@ -36,7 +36,7 @@ After training, the model needs to be evaluated by comparing its predictions wit
 
 ## Demo
 
-https://github.com/m-rishab/Gold-Price-Prediction-Model/assets/113618652/1eafce25-0e8d-459f-b225-f0bfb2359eb0
+https://github.com/m-rishab/Gold-Price-Prediction-Model/assets/113618652/6d57c042-2a5e-43af-b442-b84cd297cf15
 
 ```python
 # Sample code snippet

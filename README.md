@@ -36,7 +36,7 @@ After training, the model needs to be evaluated by comparing its predictions wit
 
 ## Demo
 
-Include a demo or a sample code snippet showcasing how to use the model for gold price prediction. You can provide examples of input data and expected output.
+https://github.com/m-rishab/Gold-Price-Prediction-Model/assets/113618652/1eafce25-0e8d-459f-b225-f0bfb2359eb0
 
 ```python
 # Sample code snippet

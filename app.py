@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.svm import SVR
+import os
 from sklearn.metrics import r2_score
 
 app = Flask(__name__)
